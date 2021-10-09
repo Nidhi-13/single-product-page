@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fernitor</title>
+    <!-- fontawesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-2 fixed-top">
+      <div class="container">
+        <a
+          class="navbar-brand d-flex justify-content-between align-items-center order-lg-0"
+          href="index.html"
+        >
+          <img src="images/logo.png" alt="site icon" />
+          <span class="text-uppercase ms-2 fw-bold">Fernitor</span>
+        </a>
+
+        <div class="order-lg-2 nav-btns">
+          <button type="button" class="btn position-relative">
+            <i class="fa fa-shopping-cart"></i>
+            <span
+              class="position-absolute top-0 start-100 translate-middle badge bg-primary"
+              >5</span
+            >
+          </button>
+
+          <button class="btn btn-sm ms-3 btn-pink-outline text-capitalize">
+            login
+          </button>
+          <button class="btn btn-sm ms-2 btn-pink-outline text-capitalize">
+            register
+          </button>
+        </div>
+
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+          <ul class="navbar-nav mx-auto text-center">
+            <li class="nav-item px-2 py-2">
+              <a class="nav-link text-uppercase text-dark" href="index.html"
+                >home</a
+              >
+            </li>
+            <li class="nav-item px-2 py-2">
+              <a class="nav-link text-uppercase text-dark" href="products.html"
+                >shop</a
+              >
+            </li>
+            <li class="nav-item px-2 py-2">
+              <a class="nav-link text-uppercase text-dark" href="about.html"
+                >about us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <section class="single-product py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-10 mx-auto col-lg-6 text-center my-5">
+            <div class="single-product-img-container pt-5">
+              <img
+                src="./images/c_formal_gray_shirt.png"
+                class="single-big-img"
+              />
+            </div>
+            <div class="row single-product-photos mt-2">
+              <!-- single photo -->
+              <div class="col-3 col-sm-3 single-product-photo p-2">
+                <img
+                  src="./images/c_formal_gray_shirt.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <!-- end of single photo -->
+              <!-- single photo -->
+              <div class="col-3 col-sm-3 single-product-photo p-2">
+                <img
+                  src="./images/c_formal_gray_shirt.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <!-- end of single photo -->
+              <!-- single photo -->
+              <div class="col-3 col-sm-3 single-product-photo p-2">
+                <img
+                  src="./images/c_formal_gray_shirt.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <!-- end of single photo -->
+              <!-- single photo -->
+              <div class="col-3 col-sm-3 single-product-photo p-2">
+                <img
+                  src="./images/c_formal_gray_shirt.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <!-- end of single photo -->
+            </div>
+          </div>
+          <!-- info -->
+          <div
+            class="col-10 mx-auto col-lg-6 single-product-info my-5 px-lg-5 pt-5"
+          >
+            <h3 class="text-capitalize my-2">
+              formal gray shirt
+            </h3>
+            <!-- end of ratings -->
+            <h3 class="my-3">$45.50</h3>
+            <p class="text-muted my-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+              consequatur provident tenetur neque ullam obcaecati! Culpa nihil
+              quasi dolorem, non commodi earum nisi modi porro facilis
+              voluptatibus a expedita eligendi! Nemo sequi voluptat eaque ipsam
+              voluptas ab quod minima sint officiis. Esse ex et facere.
+            </p>
+            <h5 class="text-capitalize my-3">
+              available :
+              <span class="text-capitalize ms-2">in stock</span>
+            </h5>
+            <h5 class="text-capitalize my-3">
+              Brand :
+              <span class="text-capitalize ms-2">ikea</span>
+            </h5>
+            <!-- colors -->
+            <h5 class="text-capitalize mt-3 mb-5">
+              colors :
+              <span
+                class="d-inline-block products-color products-color-black ms-1"
+              ></span>
+              <span
+                class="d-inline-block products-color products-color-grey"
+              ></span>
+              <span
+                class="d-inline-block products-color products-color-red"
+              ></span>
+              <span
+                class="d-inline-block products-color products-color-blue"
+              ></span>
+            </h5>
+            <!-- end of colors -->
+            <hr />
+            <div class="d-flex flex-wrap">
+              <!-- cart buttons -->
+              <div class="d-flex my-2">
+                <form class="mt-4">
+                  <h5 class="text-capitalize mb-4">
+                    Quantity :
+                  </h5>
+                  <a href="" class="text-capitalize minus-btn me-2"
+                    ><i class="fa fa-minus"></i
+                  ></a>
+                  <a href="" class="text-capitalize number">2</a>
+                  <a href="" class="text-capitalize plus-btn ms-2"
+                    ><i class="fa fa-plus"></i
+                  ></a>
+                  <a href="" class="text-capitalize add-to-cart-icon-btn ms-5">
+                    add to cart
+                  </a>
+                </form>
+              </div>
+            </div>
+            <!-- end of size -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-dark py-5">
+      <div class="container">
+        <div class="row text-white g-4">
+          <div class="col-md-6 col-lg-3">
+            <a
+              class="text-uppercase text-decoration-none brand text-white"
+              href="index.html"
+              >Fernitor</a
+            >
+            <p class="text-white text-muted mt-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+              mollitia quisquam veniam odit cupiditate, ullam aut voluptas velit
+              dolor ipsam?
+            </p>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <h5 class="fw-light">Links</h5>
+            <ul class="list-unstyled">
+              <li class="my-3">
+                <a
+                  href="index.html"
+                  class="text-white text-decoration-none text-muted"
+                >
+                  <i class="fas fa-chevron-right me-1"></i> Home
+                </a>
+              </li>
+              <li class="my-3">
+                <a
+                  href="products.html"
+                  class="text-white text-decoration-none text-muted"
+                >
+                  <i class="fas fa-chevron-right me-1"></i> Shop
+                </a>
+              </li>
+              <li class="my-3">
+                <a
+                  href="about.html"
+                  class="text-white text-decoration-none text-muted"
+                >
+                  <i class="fas fa-chevron-right me-1"></i> About Us
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <h5 class="fw-light mb-3">Contact Us</h5>
+            <div
+              class="d-flex justify-content-start align-items-start my-2 text-muted"
+            >
+              <span class="me-3">
+                <i class="fas fa-map-marked-alt"></i>
+              </span>
+              <span class="fw-light">
+                Albert Street, New York, AS 756, United States of America
+              </span>
+            </div>
+            <div
+              class="d-flex justify-content-start align-items-start my-2 text-muted"
+            >
+              <span class="me-3">
+                <i class="fas fa-envelope"></i>
+              </span>
+              <span class="fw-light">
+                fernitor.support@gmail.com
+              </span>
+            </div>
+            <div
+              class="d-flex justify-content-start align-items-start my-2 text-muted"
+            >
+              <span class="me-3">
+                <i class="fas fa-phone-alt"></i>
+              </span>
+              <span class="fw-light">
+                +1234 5678 910
+              </span>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <h5 class="fw-light mb-3">Follow Us</h5>
+            <div>
+              <ul class="list-unstyled d-flex">
+                <li>
+                  <a
+                    href="#"
+                    class="text-white text-decoration-none text-muted fs-4 me-4"
+                  >
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-white text-decoration-none text-muted fs-4 me-4"
+                  >
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-white text-decoration-none text-muted fs-4 me-4"
+                  >
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-white text-decoration-none text-muted fs-4 me-4"
+                  >
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-white text-decoration-none text-muted fs-4 me-4"
+                  >
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end of footer -->
+
+    <!-- jquery -->
+    <script src="js/jquery-3.6.0.js"></script>
+    <!-- isotope js -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <!-- bootstrap js -->
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
